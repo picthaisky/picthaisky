@@ -45,6 +45,48 @@ These public repositories present shared platform designs and reference implemen
 
 > Projects include implementations, experiments and design documents. Features described in their READMEs should be evaluated against each repository's current implementation and validation status.
 
+## 🏗️ Architecture & Delivery Expertise
+
+> From business requirements to maintainable applications and operationally aware delivery.
+
+```mermaid
+flowchart LR
+    A["Business needs & workflows"] --> B["Architecture & domain design"]
+    B --> C["Application & data"]
+    C --> D["Delivery & operations"]
+    D --> E["Feedback & improvement"]
+    E -.-> A
+```
+
+| Perspective | Engineering focus | Value to the team |
+|---|---|---|
+| **Business & product** | Map stakeholders, workflows, requirements and acceptance criteria. | A shared understanding of the problem and priorities. |
+| **Application architecture** | Design layered and domain-oriented applications, APIs and clear boundaries between responsibilities. | A foundation that is easier to change, test and understand. |
+| **Data & integration** | Model relational data, reporting flows and system integrations; explore analytics with ClickHouse. | More consistent information for operations and decisions. |
+| **Security by design** | Consider authentication, authorization, validation and secret handling throughout design and delivery. | Helps reduce avoidable security risks; controls still need verification. |
+| **Delivery & operations** | Use containers, deployment documentation and environment-specific configuration; plan monitoring, backup and recovery. | More repeatable releases and clearer operational handover. |
+| **Quality & collaboration** | Use reviewable changes, documentation and appropriate testing; communicate assumptions and trade-offs. | Makes decisions and follow-up work easier for the team. |
+
+### 🔄 How I approach delivery
+
+1. **Understand** — identify the business problem, users, constraints and desired outcomes.
+2. **Design** — map workflows, define system boundaries, data models and API contracts.
+3. **Build** — deliver in manageable increments, with security and maintainability in mind.
+4. **Validate** — review behavior and run checks suited to the change and environment.
+5. **Operate & improve** — document deployment and recovery, observe outcomes, and refine with feedback.
+
+> The approach is adapted to each project's scope and maturity; not every practice is implemented in every repository.
+
+## 💡 Areas of interest & impact
+
+| Area | What I aim to enable | Explore |
+|---|---|---|
+| **Enterprise applications** | Replace fragmented workflows with clearer processes, role-based access and useful operational information. | [ECM Project Control](https://github.com/picthaisky/ECM-Planning-Project-Control) |
+| **SaaS & digital products** | Explore reusable application architecture and workflows that can serve different users and businesses. | [POS SaaS](https://github.com/picthaisky/senic-pos-saas-system) · [Marketplace](https://github.com/picthaisky/Job-Service-Marketplace) |
+| **Data & analytics** | Organize data flows and analytics foundations to support more informed decisions. | [Data Lakehouse Platform](https://github.com/kingpac-dev/Enterprise-Data-Lakehouse-Platform) |
+| **Engineering platforms** | Define shared delivery practices, operational guidance and reusable templates. | [Enterprise DevOps Blueprint](https://github.com/kingpac-dev/enterprise-devops-blueprint) |
+| **AI-assisted workflows** | Explore agent orchestration and human review as part of software and knowledge workflows. | [Nexus-Agent](https://github.com/picthaisky/Nexus-Agent) |
+
 ## 🛠️ Technology & engineering interests
 
 | Area | Tools and practices |
